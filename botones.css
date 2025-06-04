@@ -1,0 +1,65 @@
+.button {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.25s, transform 0.25s;
+    margin-right: 6px;
+    margin-left: 6px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+footer .button {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.button i {
+    margin-right: 12px;
+}
+.button:hover {
+    transform: scale(1.03);
+}
+
+.usm_cl {
+    background-color: #155bb5;
+    color: white;
+}
+.usm_cl:hover {
+    background-color: #1c77ff;
+}
+
+.siga {
+    background-color: #f44336;
+    color: white;
+}
+.siga:hover {
+    background-color: #ff7961;
+}
+
+.comunidad_sansana {
+    background-color: #4caf50;
+    color: white;
+}
+.comunidad_sansana:hover {
+    background-color: #66bb6a;
+}
+
+.feusam {
+    background-color: #ff62dd;
+    color: white;
+}
+.feusam:hover {
+    background-color: #ff80ab;
+}
+
+.camello {
+    background-color: #00fc65;
+    color: white;
+}
+.camello:hover {
+    background-color: #00e676;
+}

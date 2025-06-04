@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, #00b95d, #00944a);
+    color: #ffffff;
+    font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+    margin: 4px;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.active {
+    background-color: #1c77ff;
+    color: white;
+}
