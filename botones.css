@@ -24,11 +24,11 @@ footer .button {
     transform: scale(1.03);
 }
 
-.usm_cl {
+.usm {
     background-color: #155bb5;
     color: white;
 }
-.usm_cl:hover {
+.usm:hover {
     background-color: #1c77ff;
 }
 
@@ -56,10 +56,154 @@ footer .button {
     background-color: #ff80ab;
 }
 
-.camello {
-    background-color: #00fc65;
+.cee {
+    background-color: #9c27b0;
     color: white;
 }
-.camello:hover {
-    background-color: #00e676;
+.cee:hover {
+    background-color: #ba68c8;
+}
+
+.cal_academico {
+    background-color: #ff9800;
+    color: white;
+}
+.cal_academico:hover {
+    background-color: #ffb74d;
+}
+
+.aula {
+    background-color: #FCB101;
+    color: white;
+}
+.aula:hover {
+    background-color: #FDD835;
+}
+
+.biblioteca {
+    background-color: #338388;
+    color: white;
+}
+.biblioteca:hover {
+    background-color: #4DB6AC;
+}
+
+.genero {
+    background-color: #FF4081;
+    color: white;
+}
+.genero:hover {
+    background-color: #FF80AB;
+}
+
+.geekusm {
+    background-color: #7B01E9;
+    color: white;
+}
+.geekusm:hover {
+    background-color: #A200FF;
+}
+
+.mov0 {
+    background-color: #F6C280;
+    color: white;
+}
+.mov0:hover {
+    background-color: #F9D6A5;
+}
+
+.yotecuido {
+    background-color: #CDB4FD;
+    color: white;
+}
+.yotecuido:hover {
+    background-color: #D6C2FF;
+}
+
+.carretesusm {
+    background-color: #45B3E7;
+    color: white;
+}
+.carretesusm:hover {
+    background-color: #6EC6FF;
+}
+
+.escena {
+    background-color: #DB281B;
+    color: white;
+}
+.escena:hover {
+    background-color: #FF5733;
+}
+
+.chillzone {
+    background-color: #F9A8C1;
+    color: white;
+}
+.chillzone:hover {
+    background-color: #FFB3D1;
+}
+
+.cheer{
+    background-color: #F7D84B;
+    color: white;
+}
+.cheer:hover {
+    background-color: #F9E08C;
+}
+
+.alejandria {
+    background-color: #FF6F61;
+    color: white;
+}
+.alejandria:hover {
+    background-color: #FF8A73;
+}
+
+.discord {
+    background-color: #7289DA;
+    color: white;
+}
+.discord:hover {
+    background-color: #99AAB5;
+}
+
+.reddit {
+    background-color: #FF4500;
+    color: white;
+}
+.reddit:hover {
+    background-color: #FF6347;
+}
+
+.orquesta{
+    background-color: #165483;
+    color: white;
+}
+.orquesta:hover {
+    background-color: #1C77FF;
+}
+
+.fablab {
+    background-color: #FFB300;
+    color: white;
+}
+.fablab:hover {
+    background-color: #FFD54F;
+}
+
+.gbu {
+    background-color: #FE272A;
+    color: white;
+}
+.gbu:hover {
+    background-color: #FF5252;
+}
+
+.cubesat {
+    background-color: #181D7B;
+    color: white;
+}
+.cubesat:hover {
+    background-color: #3F51B5;
 }
