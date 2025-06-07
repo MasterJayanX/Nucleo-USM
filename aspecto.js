@@ -19,6 +19,7 @@ function getCookie(nombre) {
 function cambiarTema(guardar = true) {
     var estilo = document.getElementById("estilo");
     var opciones = document.getElementById("tema");
+    var botones = document.getElementById("botones");
     var estiloSeleccionado = opciones.value;
     if (estiloSeleccionado === "0") {
         console.log("No se ha seleccionado un tema válido.");
@@ -37,8 +38,13 @@ function cambiarTema(guardar = true) {
         estilo.href = "aspecto3.css";
     } else if (estiloSeleccionado === "4") {
         estilo.href = "aspecto4.css";
+    } else if (estiloSeleccionado === "5") {
+        estilo.href = "aspecto5.css";
+        botones.href = "botones-retro.css";
     }
-    console.log("Tema cambiado a: " + estiloSeleccionado);
+    if (estiloSeleccionado !== "5") {
+        botones.href = "botones.css";
+    }
 }
 
 window.onload = function() {
