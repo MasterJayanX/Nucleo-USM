@@ -2,8 +2,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Núcleo USM: Enlaces</title>
-    <link rel="stylesheet" href="look.css">
+    <link rel="stylesheet" href="aspecto.css">
     <link rel="stylesheet" href="botones.css">
+    <link rel="icon" href="nucleo.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/d79eb85c49.js" crossorigin="anonymous"></script>
 </head>
 
@@ -13,6 +14,15 @@
         <a href="enlaces.html">Enlaces</a></li>
         <a href="recursos.html">Recursos de Estudio</a></li>
         <a href="contacto.html">Contacto</a></li>
+        <div class="derecha">
+            <select id="tema" onchange=cambiarTema()>
+                <option value="0">Selecciona un tema</option>
+                <option value="1">Verde (por defecto)</option>
+                <option value="2">Azul</option>
+                <option value="3">Blanco</option>
+                <option value="4">Negro</option>
+            </select>
+        </div>
     </div>
     <div class="titulo">
         <h1>Enlaces importantes</h1>
@@ -39,6 +49,7 @@
         <a href="https://rree.usm.cl" class="button usm" target="_blank">Relaciones Estudiantiles USM</a><br>
         <a href="https://dee.usm.cl" class="button usm" target="_blank">Dirección de Estudios USM</a><br>
         <a href="https://vra.usm.cl" class="button cal_academico" target="_blank">Vicerrectoría Académica USM</a><br>
+        <a href="https://sireb.usm.cl" class="button usm" target="_blank">SIREB USM</a><br>
 
         <h2 id="federaciones">Federaciones y Centros de Estudiantes</h2>
         <h3>Casa Central Valparaíso</h3>
@@ -49,6 +60,7 @@
         <a href="https://www.instagram.com/caamec.usm/" class="button cee" target="_blank">CAAMEC Casa Central</a>Centro de Alumnos de Mecánica Valparaíso<br>
         <a href="https://www.instagram.com/caaicusm/" class="button cee" target="_blank">CAAIC Casa Central</a>Centro de Alumnos de Ingeniería Civil Valparaíso<br>
         <a href="https://www.instagram.com/caaicom/" class="button cee" target="_blank">CAAICOM Casa Central</a>Centro de Alumnos de Ingeniería Comercial Valparaíso<br>
+        <a href="https://www.instagram.com/caacc_usm/" class="button cee" target="_blank">CAACC Casa Central</a>Centro de Alumnos de Construcción Civil Valparaíso<br>
         <h3>San Joaquín</h3>
         <a href="https://www.instagram.com/feusam.usm.sj/" class="button feusam" target="_blank">FEUSAM San Joaquín</a>Federación de Estudiantes Santiago San Joaquín<br>
         <a href="https://imgur.com/cCx1BbB" class="button feusam" target="_blank">Códigos QR de Feusam</a><br>
@@ -62,6 +74,9 @@
         <a href="https://www.instagram.com/fesam.usm/" class="button feusam" target="_blank">Fesam Vitacura</a>Federación de Estudiantes Interina Santiago Vitacura<br>
         <a href="https://www.instagram.com/caic_usm/" class="button cee" target="_blank">CAIC Vitacura</a>Centro de Alumnos de Ingeniería Comercial Santiago<br>
         <a href="https://www.instagram.com/ceici.usm/" class="button cee" target="_blank">CEICI Vitacura</a>Centro de Alumnos de Industrial Santiago<br>
+        <h3>Viña del Mar</h3>
+        <a href="https://www.instagram.com/feusm.vina/" class="button feusam" target="_blank">FEUSM Viña del Mar</a>Federación de Estudiantes Viña del Mar<br>
+        <a href="https://www.instagram.com/ifdi.utfsm_cee/" class="button cee" target="_blank">CEEIFDI Viña del Mar</a>Centro de Estudiantes de Ingeniería en Fabricación y Diseño Industrial<br>
 
         <h2 id="iniciativas">Iniciativas Estudiantiles</h2>
         <h3>Casa Central Valparaíso</h3>
@@ -79,6 +94,8 @@
         <a href="https://www.instagram.com/yotecuidousmvitacura/" class="button yotecuido" target="_blank">Yo Te Cuido USM Vitacura 🐾</a><br>
         <a href="https://www.instagram.com/escena_sansana/" class="button escena" target="_blank">Escena Sansana 🎭️</a><br>
         <a href="https://www.instagram.com/chillzone.usm/" class="button chillzone" target="_blank">Chill Zone USM 💤</a><br>
+        <h3>Viña del Mar</h3>
+        <a href="https://www.instagram.com/fablab_usm/" class="button fablab" target="_blank">Fablab USM Viña del Mar 🧱</a><br>
 
         <h2 id="comunidades">Comunidades Sansanas</h2>
         <a href="https://linktr.ee/comunidad.sansana" class="button comunidad_sansana" target="_blank">Comunidad Sansana (Matrix USM)</a><br>
@@ -89,16 +106,19 @@
         <p>En este subreddit, los estudiantes pueden compartir información relacionada a la Universidad.</p>
 
         <h2 id="ig">Cuentas de Instagram Oficiales</h2>
-        <a href="https://www.instagram.com/usantamaria/" class="button usm" target="_blank">Instagram Oficial USM</a><br>
-        <a href="https://www.instagram.com/usmvalparaiso/" class="button usm" target="_blank">Instagram Oficial USM Valparaíso</a><br>
-        <a href="https://www.instagram.com/usmsanjoaquin/" class="button usm" target="_blank">Instagram Oficial USM San Joaquín</a><br>
-        <a href="https://www.instagram.com/usmvitacura/" class="button usm" target="_blank">Instagram Oficial USM Vitacura</a><br>
-        <a href="https://www.instagram.com/usmvinadelmar/" class="button usm" target="_blank">Instagram Oficial USM Viña del Mar</a><br>
-        <a href="https://www.instagram.com/usmconcepcion/" class="button usm" target="_blank">Instagram Oficial USM Concepción</a><br>
+        <a href="https://www.instagram.com/usantamaria/" class="button usm" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram Oficial USM</a><br>
+        <a href="https://www.instagram.com/usmvalparaiso/" class="button usm" target="_blank"><i class="fa-brands fa-instagram"></i>USM Valparaíso</a><br>
+        <a href="https://www.instagram.com/usmsanjoaquin/" class="button usm" target="_blank"><i class="fa-brands fa-instagram"></i>USM San Joaquín</a><br>
+        <a href="https://www.instagram.com/usmvitacura/" class="button usm" target="_blank"><i class="fa-brands fa-instagram"></i>USM Vitacura</a><br>
+        <a href="https://www.instagram.com/usmvinadelmar/" class="button usm" target="_blank"><i class="fa-brands fa-instagram"></i>USM Viña del Mar</a><br>
+        <a href="https://www.instagram.com/usmconcepcion/" class="button usm" target="_blank"><i class="fa-brands fa-instagram"></i>USM Concepción</a><br>
+        <a href="https://www.instagram.com/admisionusm/" class="button usm" target="_blank"><i class="fa-brands fa-instagram"></i>Admisión USM</a><br>
 
         <h2 id="otros">Otros Enlaces Útiles</h2>
-        <a href="mailto:inclusion@usm.cl" class="button usm" target="_blank">Programa de Inclusión USM</a>
+        <a href="mailto:inclusion@usm.cl" class="button usm" target="_blank"><i class="fa-solid fa-envelope"></i>Programa de Inclusión USM</a>
         <a href="https://rree.usm.cl/apoyo-y-acompanamiento/programa-inclusion/" class="button usm" target="_blank">Más Información</a><br>
         <a href="https://genero.usm.cl" class="button genero" target="_blank">Dirección de Género USM</a><br>
+        <a href="https://dee.usm.cl/wp-content/uploads/2025/01/2025-Gui%CC%81a-de-Estudiante-.pdf" class="button usm" target="_blank">Guía del Estudiante USM 2025</a><br>
     </div>
+    <script src="aspecto.js"></script>
 </body>

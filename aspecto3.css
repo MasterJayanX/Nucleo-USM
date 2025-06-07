@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(to right, #00b95d, #00944ad8);
-    color: #ffffff;
+    background-color: white;
+    color: black;
     font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif;
     margin-left: 20px;
     margin-right: 20px;
@@ -14,7 +14,7 @@ body {
 }
 
 .indice {
-    background-color: #088813;
+    background-color: #7e7e7e;
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -30,7 +30,7 @@ body {
 .navbar {
     overflow: hidden;
     background-color: #333;
-    border-radius: 10px;
+    border-radius: 14px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 10px 0;
 }
@@ -42,7 +42,7 @@ body {
     padding: 10px 14px;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
-    border-radius: 10px;
+    border-radius: 14px;
     margin: 4px;
 }
 .navbar a:hover {
@@ -52,6 +52,30 @@ body {
 .navbar a.active {
     background-color: #1c77ff;
     color: white;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+}
+.derecha {
+    float: right;
+    margin: 0 10px;
+    display: block;
+    align-items: center;
+}
+.derecha a {
+    float: none;
+}
+.derecha select {
+    margin-top: 5px;
+}
+.derecha a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 @media (max-width: 600px) {

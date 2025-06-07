@@ -2,8 +2,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Núcleo USM: Recursos de Estudio</title>
-    <link rel="stylesheet" href="look.css">
+    <link rel="stylesheet" href="aspecto.css">
     <link rel="stylesheet" href="botones.css">
+    <link rel="icon" href="nucleo.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/d79eb85c49.js" crossorigin="anonymous"></script>
 </head>
 
@@ -13,6 +14,15 @@
         <a href="enlaces.html">Enlaces</a></li>
         <a href="recursos.html">Recursos de Estudio</a></li>
         <a href="contacto.html">Contacto</a></li>
+        <div class="derecha">
+            <select id="tema" onchange=cambiarTema()>
+                <option value="0">Selecciona un tema</option>
+                <option value="1">Verde (por defecto)</option>
+                <option value="2">Azul</option>
+                <option value="3">Blanco</option>
+                <option value="4">Negro</option>
+            </select>
+        </div>
     </div>
     <div class="titulo">
         <h1>Recursos de Estudio</h1>
@@ -27,6 +37,6 @@
         <p>Este repositorio contiene material de estudio para la mayoría de asignaturas de la USM, incluyendo ramos de carreras como Eléctrica, Informática, entre otras. Fue creado por el ex-alumno Carlos Bravo, mejor conocido como Carlisho Eléctrico.</p>
         <a href="https://www.alejandriaicm.com/home" class="button alejandria" target="_blank">Alejandría ICM</a><br>
         <p>Alejandría ICM es una plataforma de recursos de estudio creada por estudiantes de Ingeniería Civil Matemática (ICM) de la USM. Ofrece apuntes, guías y material complementario para diversas asignaturas.</p>
-
     </div>
+    <script src="aspecto.js"></script>
 </body>
