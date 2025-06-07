@@ -14,17 +14,17 @@ body {
 }
 
 .indice {
-    background-color: #414141;
+    background-color: #858585;
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 10px;
+    font-size: 1.25em;
 }
 
 .indice ul {
     list-style-type: none;
     padding: 0;
-    font-size: 1.25em;
 }
 
 .navbar {
