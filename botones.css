@@ -207,3 +207,19 @@ footer .button {
 .cubesat:hover {
     background-color: #3F51B5;
 }
+
+.neuro {
+    background-color: #00BCD4;
+    color: white;
+}
+.neuro:hover {
+    background-color: #26C6DA;
+}
+
+.emi {
+    background-color: #6f08cf;
+    color: white;
+}
+.emi:hover {
+    background-color: #8e24aa;
+}
