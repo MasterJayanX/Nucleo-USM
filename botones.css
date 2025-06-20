@@ -223,3 +223,75 @@ footer .button {
 .emi:hover {
     background-color: #8e24aa;
 }
+
+.natacion {
+    background-color: #0B56E4;
+    color: white;
+}
+.natacion:hover {
+    background-color: #1E88E5;
+}
+
+.tenis {
+    background-color: #FF5722;
+    color: white;
+}
+.tenis:hover {
+    background-color: #FF7043;
+}
+
+.esports {
+    background-color: #DD261F;
+    color: white;
+}
+.esports:hover {
+    background-color: #FF5252;
+}
+
+.atletismo {
+    background-color: #2867B7;
+    color: white;
+}
+.atletismo:hover {
+    background-color: #42A5F5;
+}
+
+.step {
+    background-color: #1C3FA3;
+    color: white;
+}
+.step:hover {
+    background-color: #1E88E5;
+}
+
+.calistenia {
+    background-color: #000000;
+    color: white;
+}
+.calistenia:hover {
+    background-color: #333333;
+}
+
+.avisos {
+    background-color: #022B5F;
+    color: white;
+}
+.avisos:hover {
+    background-color: #033E7B;
+}
+
+.crossplay {
+    background-color: #FFD157;
+    color: white;
+}
+.crossplay:hover {
+    background-color: #FFE082;
+}
+
+.tuna {
+    background-color: #3F475A;
+    color: white;
+}
+.tuna:hover {
+    background-color: #5C6BC0;
+}
