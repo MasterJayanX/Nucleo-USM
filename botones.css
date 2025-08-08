@@ -295,3 +295,27 @@ footer .button {
 .tuna:hover {
     background-color: #5C6BC0;
 }
+
+.mujeres {
+    background-color: #721A8A;
+    color: white;
+}
+.mujeres:hover {
+    background-color: #85058E;
+}
+
+.bailarines {
+    background-color: #150F62;
+    color: white;
+}
+.bailarines:hover {
+    background-color: #1E88E5;
+}
+
+.puntoencuentro {
+    background-color: #E8A44B;
+    color: white;
+}
+.puntoencuentro:hover {
+    background-color: #F9D6A5;
+}
