@@ -232,11 +232,11 @@ footer .button {
     background-color: #1E88E5;
 }
 
-.tenis {
+.tenisdemesa {
     background-color: #FF5722;
     color: white;
 }
-.tenis:hover {
+.tenisdemesa:hover {
     background-color: #FF7043;
 }
 
@@ -320,11 +320,11 @@ footer .button {
     background-color: #F9D6A5;
 }
 
-.horario_usm {
+.horario {
     background-color: #024D75;
     color: white;
 }
-.horario_usm:hover {
+.horario:hover {
     background-color: #026A9E;
 }
 
@@ -342,4 +342,12 @@ footer .button {
 }
 .cuanticas:hover {
     background-color: #D6C2FF;
+}
+
+.tenis {
+    background-color: #2F363E;
+    color: white;
+}
+.tenis:hover {
+    background-color: #57606A;
 }
