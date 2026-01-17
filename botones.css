@@ -74,7 +74,7 @@ footer .button {
 
 .aula {
     background-color: #FCB101;
-    color: white;
+    color: black;
 }
 .aula:hover {
     background-color: #FDD835;
@@ -146,7 +146,7 @@ footer .button {
 
 .cheer{
     background-color: #F7D84B;
-    color: white;
+    color: black;
 }
 .cheer:hover {
     background-color: #F9E08C;
@@ -282,7 +282,7 @@ footer .button {
 
 .crossplay {
     background-color: #FFD157;
-    color: white;
+    color: black;
 }
 .crossplay:hover {
     background-color: #FFE082;
@@ -318,4 +318,28 @@ footer .button {
 }
 .puntoencuentro:hover {
     background-color: #F9D6A5;
+}
+
+.horario_usm {
+    background-color: #024D75;
+    color: white;
+}
+.horario_usm:hover {
+    background-color: #026A9E;
+}
+
+.blanco {
+    background-color: white;
+    color: black;
+}
+.blanco:hover {
+    background-color: #E0E0E0;
+}
+
+.cuanticas {
+    background-color: #EBE8FD;
+    color: black;
+}
+.cuanticas:hover {
+    background-color: #D6C2FF;
 }
