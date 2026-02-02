@@ -351,3 +351,19 @@ footer .button {
 .tenis:hover {
     background-color: #57606A;
 }
+
+.puntoencuentro {
+    background-color: #FA8C2B;
+    color: white;
+}
+.puntoencuentro:hover {
+    background-color: #F9D6A5;
+}
+
+.memes {
+    background-color: #757575;
+    color: white;
+}
+.memes:hover {
+    background-color: #9E9E9E;
+}
