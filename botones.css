@@ -272,14 +272,6 @@ footer .button {
     background-color: #333333;
 }
 
-.avisos {
-    background-color: #022B5F;
-    color: white;
-}
-.avisos:hover {
-    background-color: #033E7B;
-}
-
 .crossplay {
     background-color: #FFD157;
     color: black;
