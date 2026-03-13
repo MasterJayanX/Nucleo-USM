@@ -77,15 +77,3 @@ select {
     background-color: #ddd;
     color: black;
 }
-
-@media (max-width: 600px) {
-    body {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .navbar a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-}

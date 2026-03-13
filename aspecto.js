@@ -31,7 +31,7 @@ function cambiarTema(guardar = true) {
         console.log("Tema guardado: " + estiloSeleccionado);
     }
     if (estiloSeleccionado === "1") {
-        estilo.href = "aspecto.css";
+        estilo.href = "aspecto1.css";
     } else if (estiloSeleccionado === "2") {
         estilo.href = "aspecto2.css";
     } else if (estiloSeleccionado === "3") {
@@ -40,9 +40,11 @@ function cambiarTema(guardar = true) {
         estilo.href = "aspecto4.css";
     } else if (estiloSeleccionado === "5") {
         estilo.href = "aspecto5.css";
+    } else if (estiloSeleccionado === "6") {
+        estilo.href = "aspecto6.css";
         botones.href = "botones-retro.css";
     }
-    if (estiloSeleccionado !== "5") {
+    if (estiloSeleccionado !== "6") {
         botones.href = "botones.css";
     }
 }

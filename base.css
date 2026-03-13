@@ -1,0 +1,36 @@
+#tema {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding: 6px;
+        align-items: center;
+    }
+    .navbar a {
+        float: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        flex: 1 1 120px;
+        border-radius: 10px;
+    }
+    .derecha {
+        float: none;
+        margin: 4px 0 0 0;
+        width: 100%;
+    }
+    .derecha select {
+        margin-top: 0;
+        width: 100%;
+    }
+}

@@ -1,9 +1,11 @@
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Núcleo USM: Enlaces</title>
-    <link rel="stylesheet" type="text/css" href="aspecto.css" id="estilo">
+    <link rel="stylesheet" type="text/css" href="aspecto1.css" id="estilo">
     <link rel="stylesheet" href="botones.css" id="botones">
+    <link rel="stylesheet" href="base.css" id="base">
     <link rel="icon" href="nucleo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -11,8 +13,9 @@
 <body>
     <div class="navbar">
         <a href="index.html">Inicio</a></li>
-        <a href="enlaces.html">Enlaces</a></li>
+        <a href="enlaces.html"><u>Enlaces</u></a></li>
         <a href="recursos.html">Recursos de Estudio</a></li>
+        <a href="faq.html">Preguntas Frecuentes</a></li>
         <a href="contacto.html">Contacto</a></li>
         <div class="derecha">
             <select id="tema" onchange=cambiarTema()>
@@ -21,7 +24,8 @@
                 <option value="2">Azul</option>
                 <option value="3">Claro</option>
                 <option value="4">Oscuro</option>
-                <option value="5">Semi-Retro</option>
+                <option value="5">Oscuro (OLED)</option>
+                <option value="6">Semi-Retro</option>
             </select>
         </div>
     </div>
@@ -46,6 +50,8 @@
         <a href="https://www.usm.cl" class="button usm" target="_blank"><i class="fa-solid fa-globe"></i>Sitio oficial de la USM</a><br>
         <a href="https://siga.usm.cl" class="button siga" target="_blank"><i class="fa-solid fa-calendar-days"></i>SIGA USM</a><br>
         <a href="https://aula.usm.cl" class="button aula" target="_blank"><i class="fa-solid fa-book-open-reader"></i>Aula Virtual USM</a><br>
+        <a href="https://inscripciones.usm.cl/" class="button usm" target="_blank"><i class="fa-solid fa-clipboard-list"></i>Inscripciones de asignaturas USM</a><br>
+        <a href="https://autoservicio.usm.cl/" class="button usm" target="_blank"><i class="fa-solid fa-credit-card"></i>Autoservicio USM</a><br>
         <a href="https://vra.usm.cl/wp-content/uploads/2026/01/CA2026.pdf" class="button cal_academico" target="_blank"><i class="fa-regular fa-calendar"></i>Calendario Académico 2026</a>Calendario Actual<br>
         <a href="https://vra.usm.cl/wp-content/uploads/2025/06/CA-2025.pdf" class="button cal_academico" target="_blank"><i class="fa-regular fa-calendar"></i>Calendario Académico 2025</a><br>
         <a href="https://casino.usm.cl" class="button usm" target="_blank"><i class="fa-solid fa-bowl-food"></i>Casino USM</a><br>
@@ -131,7 +137,17 @@
         <a href="https://www.reddit.com/r/usmprestigiosa/" class="button reddit" target="_blank"><i class="fa-brands fa-reddit"></i>Comunidad de Reddit USM</a><br>
         <p>En este subreddit, los estudiantes pueden compartir información relacionada a la Universidad.</p>
 
-        <h2 id="deportes">Selecciones/Equipos Deportivos</h2>
+        <h2 id="deportes">Selecciones/Equipos Deportivos</h2>@media (max-width: 600px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
         <h3>Casa Central Valparaíso</h3>
         <a href="https://www.instagram.com/usm_otters/" title="Selección de Natación USM CC" class="button natacion" target="_blank"><i class="fa-solid fa-person-swimming"></i>USM Otters</a><br>
         <a href="https://www.instagram.com/atletismousm/" title="Selección de Atletismo USM CC" class="button atletismo" target="_blank"><i class="fa-solid fa-running"></i>Atletismo USM</a><br>
@@ -177,6 +193,8 @@
         <a href="https://www.instagram.com/momazo_piassex/" class="button memes" target="_blank" title="Cuenta de memes sansanos"><i class="fa-solid fa-face-laugh-squint"></i>Momazos Piassex (Memes)</a><br>
         <a href="https://www.instagram.com/outofusm/" class="button memes" target="_blank" title="Cuenta de imágenes graciosas de la USM"><i class="fa-solid fa-face-laugh-squint"></i>Out of Context UTFSM (imágenes sin contexto)</a><br>
         <a href="https://www.instagram.com/usm.incognito/" class="button blanco" target="_blank" title="Cuenta de confesiones"><i class="fa-solid fa-user-secret"></i>USM Incógnito (Confesiones anónimas)</a><br>
+        <a href="https://zer0-creativity.github.io/utfsm-survival-guide/" class="button survival" target="_blank" title="Guía de supervivencia para estudiantes de Informática USM"><i class="fa-solid fa-book"></i>Guía de Supervivencia USM</a><br>
+        <a href="https://masterjayanx.github.io/utfsm-survival-guide/" class="button survival" target="_blank" title="Guía de supervivencia para estudiantes de Informática USM (Enlace alternativo)"><i class="fa-solid fa-book"></i>Guía de Supervivencia USM (Versión alternativa)</a><br>
         <a href="https://www.instagram.com/usm.juan.shelby/" class="button memes" target="_blank" title="Cuenta de memes sansanos"><i class="fa-solid fa-face-laugh-squint"></i>USM Juan Shelby (Memes)</a><br>
     </div>
     <br>
@@ -187,3 +205,5 @@
     </footer>
     <script src="aspecto.js"></script>
 </body>
+
+</html>

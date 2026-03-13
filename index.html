@@ -1,18 +1,21 @@
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Núcleo USM</title>
-    <link rel="stylesheet" type="text/css" href="aspecto.css" id="estilo">
+    <link rel="stylesheet" type="text/css" href="aspecto1.css" id="estilo">
     <link rel="stylesheet" href="botones.css" id="botones">
+    <link rel="stylesheet" href="base.css" id="base">
     <link rel="icon" href="nucleo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="navbar">
-        <a href="index.html">Inicio</a></li>
+        <a href="index.html"><u>Inicio</u></a></li>
         <a href="enlaces.html">Enlaces</a></li>
         <a href="recursos.html">Recursos de Estudio</a></li>
+        <a href="faq.html">Preguntas Frecuentes</a></li>
         <a href="contacto.html">Contacto</a></li>
         <div class="derecha">
             <select id="tema" onchange=cambiarTema()>
@@ -21,7 +24,8 @@
                 <option value="2">Azul</option>
                 <option value="3">Claro</option>
                 <option value="4">Oscuro</option>
-                <option value="5">Semi-Retro</option>
+                <option value="5">Oscuro (OLED)</option>
+                <option value="6">Semi-Retro</option>
             </select>
         </div>
     </div>
@@ -33,12 +37,25 @@
             El Núcleo USM es un espacio que busca centralizar la información
             y los recursos relacionados con la Universidad Técnica Federico Santa María (UTFSM). 
             Aquí encontrarás enlaces a diversas secciones, como accesos directos a iniciativas estudiantiles, eventos, 
-            recursos académicos, noticias (próximamente) y más.
+            recursos académicos y más.
         </p>
+        <p>Para revisar los enlaces disponibles, haz clic en la sección "Enlaces" en la barra de navegación.</p>
         <p>Importante: esta página aún está en desarrollo, por lo que pueden faltar enlaces y funciones.</p>
+        <h3>Anuncios</h3>
+        <p>Actualización 13 de marzo de 2026:
+            <ul>
+                <li>Se han corregido algunos errores visuales en la interfaz para dispositivos móviles.</li>
+                <li>Nuevo tema: Oscuro (OLED), ideal para pantallas OLED.</li>
+                <li>Ajustes menores de colores en temas Claro y Oscuro.</li>
+                <li>Se han agregado algunos enlaces nuevos en la sección Enlaces.</li>
+                <li>Se ha agregado esta sección para mostrar las últimas actualizaciones de la página.</li>
+                <li>Se han agregado informaciones adicionales en la parte inferior de la página principal.</li>
+            </ul>
+        </p>
         <h3>Páginas e iniciativas importantes:</h3>
         <a href="https://www.usm.cl" class="button usm" target="_blank"><i class="fa-solid fa-globe"></i>Sitio oficial de la USM</a><br>
         <a href="https://siga.usm.cl" class="button siga" target="_blank"><i class="fa-solid fa-user"></i>SIGA USM</a><br>
+        <a href="https://aula.usm.cl" class="button aula" target="_blank"><i class="fa-solid fa-book-open-reader"></i>Aula Virtual USM</a><br>
         <a href="https://vra.usm.cl/wp-content/uploads/2026/01/CA2026.pdf" class="button cal_academico" target="_blank"><i class="fa-solid fa-calendar"></i>Calendario Académico 2026</a><br>
         <a href="https://linktr.ee/comunidad.sansana" class="button comunidad_sansana" target="_blank"><i class="fa-solid fa-users"></i>Comunidad Sansana (Matrix USM)</a><br>
         <a href="https://www.instagram.com/feusam.usm.sj/" class="button feusam" target="_blank"><i class="fa-brands fa-instagram"></i>FEUSAM San Joaquín</a><br>
@@ -47,13 +64,19 @@
         <a href="https://alviniscrack.github.io/horario-usm/" class="button horario" target="_blank"><i class="fa-solid fa-calendar-days"></i>Generador de Horarios USM</a><br>
         <a href="https://sansanews.github.io" class="button blanco" target="_blank"><i class="fa-solid fa-newspaper"></i>Sansanews (Noticias Sansanas)</a><br>
         <h3>Puedes encontrar más páginas e iniciativas en la sección <a href="enlaces.html">Enlaces</a></h3>
+        <br>
+        <h3>Informaciones adicionales:</h3>
+        <p>Precio de los almuerzos en el Casino USM: <u>$3.400</u> sin Junaeb o <u>$2.300</u> con Junaeb. (actualizado 2026)</p>
+        <p>Tarifa de transporte público en Santiago con TNE: <u>$260</u>. (actualizado 2026)</p>
+        <p>Más información sobre las tarifas de transporte en Santiago: <a href="https://www.red.cl/tarifas-y-recargas/conoce-las-tarifas/" target="_blank">Tarifas de transporte</a></p>
     </div>
     <br>
-    <br>
     <footer>
-        <p>Última actualización: 11 de marzo de 2026</p>
+        <p>Última actualización: 13 de marzo de 2026</p>
         <p>© 2026 Núcleo USM. Todos los derechos reservados.</p>
         <p>Creado por un sansano para sansanos.</p>
     </footer>
     <script src="aspecto.js"></script>
 </body>
+
+</html>

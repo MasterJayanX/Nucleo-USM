@@ -2,6 +2,7 @@
     border: none;
     border-radius: 20px;
     padding: 12px 16px;
+    box-sizing: border-box;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -74,7 +75,6 @@ footer .button {
 
 .aula {
     background-color: #FCB101;
-    color: black;
 }
 .aula:hover {
     background-color: #FDD835;
@@ -360,8 +360,18 @@ footer .button {
     background-color: #9E9E9E;
 }
 
+.survival {
+    background-color: #F6C280;
+}
+.survival:hover {
+    background-color: #F9D6A5;
+}
+
 @media (max-width: 600px) {
     .button {
-        width: 90%;
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
