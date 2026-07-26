@@ -2,8 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Núcleo USM: Enlaces</title>
-    <link rel="stylesheet" type="text/css" href="aspecto1.css" id="estilo">
+    <title>Enlaces - Núcleo USM</title>
+    <link rel="stylesheet" type="text/css" href="aspecto_claro.css" id="estilo">
     <link rel="stylesheet" href="botones.css" id="botones">
     <link rel="stylesheet" href="base.css" id="base">
     <link rel="icon" href="nucleo.jpg" type="image/x-icon">
@@ -20,11 +20,11 @@
         <div class="derecha">
             <select id="tema" onchange=cambiarTema()>
                 <option value="0">Selecciona un tema</option>
-                <option value="1">Verde (por defecto)</option>
-                <option value="2">Azul</option>
-                <option value="3">Claro</option>
-                <option value="4">Oscuro</option>
-                <option value="5">Oscuro (OLED)</option>
+                <option value="1">Claro</option>
+                <option value="2">Oscuro</option>
+                <option value="3">Oscuro (OLED)</option>
+                <option value="4">Verde</option>
+                <option value="5">Azul</option>
                 <option value="6">Semi-Retro</option>
             </select>
         </div>
@@ -43,6 +43,7 @@
             <li><a href="#ig">Cuentas de Instagram Oficiales</a></li>
             <li><a href="#otros">Otros Enlaces Útiles</a></li>
             <li><a href="#miscelaneo">Misceláneo</a></li>
+            <li><a href="#correos">Direcciones de Correo</a></li>
         </ul>
     </div>
     <div>
@@ -60,7 +61,9 @@
         <a href="https://dee.usm.cl" class="button usm" target="_blank"><i class="fa-solid fa-people-group"></i>Dirección de Estudios USM</a><br>
         <a href="https://vra.usm.cl" class="button cal_academico" target="_blank"><i class="fa-brands fa-black-tie"></i>Vicerrectoría Académica USM</a><br>
         <a href="https://sireb.usm.cl" class="button usm" target="_blank"><i class="fa-solid fa-globe"></i>SIREB USM</a><br>
+        <a href="https://dti.usm.cl/" class="button usm" target="_blank"><i class="fa-solid fa-laptop-code"></i>Dirección de Tecnologías de Información (DTI) USM</a><br>
         <a href="https://ayudantias.usm.cl/pau/" class="button usm" target="_blank"><i class="fa-solid fa-handshake-angle"></i>PAU USM (Plataforma de Ayudantías Unificada)</a><br>
+        <a href="https://tv.usm.cl/" class="button usm" target="_blank"><i class="fa-solid fa-tv"></i>USM TV</a><br>
 
         <h2 id="federaciones">Federaciones y Centros de Estudiantes</h2>
         <h3>Casa Central Valparaíso</h3>
@@ -137,17 +140,7 @@
         <a href="https://www.reddit.com/r/usmprestigiosa/" class="button reddit" target="_blank"><i class="fa-brands fa-reddit"></i>Comunidad de Reddit USM</a><br>
         <p>En este subreddit, los estudiantes pueden compartir información relacionada a la Universidad.</p>
 
-        <h2 id="deportes">Selecciones/Equipos Deportivos</h2>@media (max-width: 600px) {
-    body {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .navbar a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-}
+        <h2 id="deportes">Selecciones/Equipos Deportivos</h2>
         <h3>Casa Central Valparaíso</h3>
         <a href="https://www.instagram.com/usm_otters/" title="Selección de Natación USM CC" class="button natacion" target="_blank"><i class="fa-solid fa-person-swimming"></i>USM Otters</a><br>
         <a href="https://www.instagram.com/atletismousm/" title="Selección de Atletismo USM CC" class="button atletismo" target="_blank"><i class="fa-solid fa-running"></i>Atletismo USM</a><br>
@@ -182,10 +175,12 @@
         <a href="https://www.instagram.com/bis.usm/" class="button usm" title="Bienvenida de Integración Sansana CC" target="_blank"><i class="fa-brands fa-instagram"></i>BIS USM CC</a><br>
 
         <h2 id="otros">Otros Enlaces Útiles</h2>
-        <a href="mailto:inclusion@usm.cl" title="Dirección de Correo del Programa de Inclusión" class="button usm" target="_blank"><i class="fa-solid fa-envelope"></i>Programa de Inclusión USM</a>
+        <a href="mailto:inclusion@usm.cl" title="Dirección de Correo del Programa de Inclusión" class="button mail" target="_blank"><i class="fa-solid fa-envelope"></i>Programa de Inclusión USM</a>
         <a href="https://rree.usm.cl/apoyo-y-acompanamiento/programa-inclusion/" title="Más Información sobre el Programa de Inclusión" class="button usm" target="_blank">Más Información</a><br>
         <a href="https://genero.usm.cl" class="button genero" target="_blank"><i class="fa-solid fa-people-group"></i>Dirección de Género USM</a><br>
         <a href="https://dee.usm.cl/wp-content/uploads/2025/12/2026-Gui%CC%81a-de-Estudiante-.pdf" class="button usm" target="_blank"><i class="fa-solid fa-school"></i>Guía del Estudiante USM 2026</a><br>
+        <a href="https://usm.cl/numeros-emergencia/" class="button usm" target="_blank"><i class="fa-solid fa-triangle-exclamation"></i>Números de Emergencia USM</a><br>
+        <a href="https://rree.usm.cl/emergencias-salud-mental/" class="button usm" target="_blank"><i class="fa-solid fa-triangle-exclamation"></i>Emergencias de Salud Mental USM</a><br>
 
         <h2 id="miscelaneo">Misceláneo</h2>
         <a href="https://sansanews.github.io" class="button blanco" target="_blank" title="Portal de noticias no oficial de la USM"><i class="fa-solid fa-newspaper"></i>Sansanews</a><br>
@@ -196,6 +191,11 @@
         <a href="https://zer0-creativity.github.io/utfsm-survival-guide/" class="button survival" target="_blank" title="Guía de supervivencia para estudiantes de Informática USM"><i class="fa-solid fa-book"></i>Guía de Supervivencia USM</a><br>
         <a href="https://masterjayanx.github.io/utfsm-survival-guide/" class="button survival" target="_blank" title="Guía de supervivencia para estudiantes de Informática USM (Enlace alternativo)"><i class="fa-solid fa-book"></i>Guía de Supervivencia USM (Versión alternativa)</a><br>
         <a href="https://www.instagram.com/usm.juan.shelby/" class="button memes" target="_blank" title="Cuenta de memes sansanos"><i class="fa-solid fa-face-laugh-squint"></i>USM Juan Shelby (Memes)</a><br>
+
+        <h2 id="correos">Direcciones de Correo de interés</h2>
+        <a href="mailto:consultas.aranceles@usm.cl" title="Puedes enviar correos a esta dirección en caso de que necesites consultas con el arancel u otros pagos" class="button mail" target="_blank"><i class="fa-solid fa-envelope"></i>Consultas Aranceles</a><br>
+        <a href="mailto:inclusion@usm.cl" title="Dirección de Correo del Programa de Inclusión" class="button mail" target="_blank"><i class="fa-solid fa-envelope"></i>Programa de Inclusión USM</a>
+        <p>Nota: esta sección está incompleta. Puedes contribuir con más enlaces o direcciones de correo al <a href="https://forms.gle/S87GDQQ7ibuxqNi2A" target="_blank">siguiente formulario</a>.</p>
     </div>
     <br>
     <br>

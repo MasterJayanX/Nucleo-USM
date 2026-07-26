@@ -31,17 +31,17 @@ function cambiarTema(guardar = true) {
         console.log("Tema guardado: " + estiloSeleccionado);
     }
     if (estiloSeleccionado === "1") {
-        estilo.href = "aspecto1.css";
+        estilo.href = "aspecto_claro.css";
     } else if (estiloSeleccionado === "2") {
-        estilo.href = "aspecto2.css";
+        estilo.href = "aspecto_oscuro.css";
     } else if (estiloSeleccionado === "3") {
-        estilo.href = "aspecto3.css";
+        estilo.href = "aspecto_oled.css";
     } else if (estiloSeleccionado === "4") {
-        estilo.href = "aspecto4.css";
+        estilo.href = "aspecto_verde.css";
     } else if (estiloSeleccionado === "5") {
-        estilo.href = "aspecto5.css";
+        estilo.href = "aspecto_azul.css";
     } else if (estiloSeleccionado === "6") {
-        estilo.href = "aspecto6.css";
+        estilo.href = "aspecto_retro.css";
         botones.href = "botones-retro.css";
     }
     if (estiloSeleccionado !== "6") {
@@ -58,5 +58,15 @@ window.onload = function() {
         console.log("Tema guardado encontrado: " + temaGuardado);
     } else {
         console.log("No hay tema guardado o el tema es inválido.");
+        const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (isDarkMode) {
+            document.getElementById("tema").value = "2";
+            cambiarTema(false);
+            console.log("Modo oscuro detectado, aplicando tema oscuro.");
+        } else {
+            document.getElementById("tema").value = "1";
+            cambiarTema(false);
+            console.log("Modo claro detectado, aplicando tema claro.");
+        }
     }
 };

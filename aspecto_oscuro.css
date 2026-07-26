@@ -1,5 +1,5 @@
 body {
-    background-color: #242424;
+    background-color: #181818;
     color: #ffffff;
     font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif;
     margin-left: 20px;
@@ -14,7 +14,7 @@ body {
 }
 
 .indice {
-    background-color: #777777;
+    background-color: #555555;
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -29,7 +29,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #202020;
     border-radius: 14px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 10px 0;

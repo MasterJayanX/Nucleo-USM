@@ -367,6 +367,14 @@ footer .button {
     background-color: #F9D6A5;
 }
 
+.mail {
+    background-color: #1A73E8;
+    color: white;
+}
+.mail:hover {
+    background-color: #4285F4;
+}
+
 @media (max-width: 600px) {
     .button {
         display: block;
